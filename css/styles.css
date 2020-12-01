@@ -6,14 +6,37 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
-
+@import "screens/find.css";
+@import "screens/more.css";
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   padding-top: 20px;
   color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.cognotification {
+  display: flex;
+  position: relative;
+}
+
+.notification {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 67px;
+  bottom: 20px;
 }
