@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -26,19 +27,4 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
-}
-
-.cognotification {
-  position: relative;
-}
-
-.notification {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  left: 67px;
-  bottom: 20px;
 }
